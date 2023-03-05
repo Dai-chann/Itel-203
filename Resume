@@ -1,0 +1,86 @@
+Html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RESUME</title>
+      <link rel ="sytlesheet" href ="Css/Resume.css"/>
+    </head>
+    <body>
+        <div>
+            <div class="img">
+                <div class="img"> 
+                  <img src="Image/Carl.jpg">        
+                </div>
+        <center><h1>Carl Angelo R Francia</h1></center>
+        <center><p1>carlangelo1424@gmail.com</p1></center>
+        <hr>
+        <b><p class="head">Personal Information</p></b>
+        <ul>
+            <b><li>Birth of Date:</b> November 14, 2002</li>
+            <b><li>Birth of place:</b> Pakil Laguna</li>
+            <b><li>Address:</b> 99,Gonzales St., Pakil, Laguna</li>
+            <b><li>Age:</b> 20years old</li>
+            <b><li>Sex:</b> Male</li>
+            <b><li>Civil Status:</b> Single</li>
+            <b><li>Height:</b> 5'5</li>
+            <b><li>Weight:</b> 60 kgs</li>
+            <b><li>Nationality:</b> Filipino</li>
+            <b><li>Religion:</b> Roman Catholic</li>  
+            </ul>
+            <b><p class="head">Hobbies</p></b>
+          <ul>
+            <li>Basketball</li>
+            <li>Chess</li>
+            <li>Eating</li>
+            <li>Sleeping</li>
+            <li>Playing online games</li>
+          </ul>
+          <b><p class="head">Skills</p></b>
+          <ul>
+            <li>Working well in a team</li>
+            <li>Good communication</li>
+            <li>Self-motivation</li>
+            <li>Determination and persistence</li>
+            <li>Strategist</li>
+            <li>tactician</li>
+          </ul>
+          <b><p class="head">Education</p></b>
+          <ul>
+            <li>Liceo De Pakil Elementary School</li>
+            <li>Liceo De Pakil Highschool</li>
+            <li>Paete Science and Business College Senior Highschool</li>
+            <li>Laguna State Polytechnic University</li>
+          </ul>
+          <b><p class="head">Language learned</p></b>
+          <ul>
+            <li>C#</li>
+            <li>Java</li>
+            <li>Php</li>
+          </ul>
+    </body>
+</html>
+
+
+
+
+
+Css
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgba(76, 196, 247, 0.3);;
+}
+h1{
+  font-size: 25px;
+}
+img{ 
+width: 100px;
+height: 50px;
+border-radius: 50%;
+display: block;
+margin: 0 auto 30px;
+box-shadow: 0px 0px 10px rgba(163, 26, 26, 0.3);
+}
+p{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 17px;
+}
